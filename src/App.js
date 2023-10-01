@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { HomePage } from './home/HomePage'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Header from './components/header/Header';
+import { Footer } from './components/footer/Footer';
+import { SinglePage } from './components/single-page/SinglePage';
+import SignUp from './components/signup/SignUp';
+import { Movies } from './components/movies/Movies';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/singlepage/:id' component={SinglePage} />
+          <Route exact path='/signup' component={SignUp} />
+          <Route exact path='/movies' component={Movies} />
+  </Switch>
+        <Footer />
+    </Router>
+
+    </>
   );
 }
 
