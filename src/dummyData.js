@@ -9,8 +9,8 @@ export const homeData = [
         stars: "James Cameron, Rick Jaffa, Amanda Silver",
         genres: "Action",
         tags: "Action, Sci-Fi, Fantasy",
-        cover: "../images/movie-adventure.jpeg",
-        videoId: "../videos/video1.mp4",
+        cover: "images/movie-adventure.jpeg",
+        videoId: "videos/video1.mp4",
         date: "22-December-2022",
     },
     {
@@ -22,8 +22,8 @@ export const homeData = [
         stars: "Josephine Langford, Hero Fiennes Tiffin, Selma Blair",
         genres: "Drama",
         tags: "Drama, Romance",
-        cover: "../images/movie-romance1.jpeg",
-        videoId: "../videos/video2.mp4",
+        cover: "images/movie-romance1.jpeg",
+        videoId: "videos/video2.mp4",
         date: "12-May-2023",
     },
 
@@ -36,8 +36,8 @@ export const homeData = [
         stars: "Jennifer Lawrence, Andrew Barth, Natalie Morales",
         genres: "Action",
         tags: "Comedy, Romance",
-        cover: "../images/movie-comedy1.jpeg",
-        videoId: "../videos/video3.mp4",
+        cover: "images/movie-comedy1.jpeg",
+        videoId: "videos/video3.mp4",
         date: "23-June-2023",
     },
 
@@ -50,8 +50,8 @@ export const homeData = [
         stars: "Halle Bailey, Javier Bardem, Jonah Hauer-King",
         genres: "Fantasy",
         tags: "Adventures, Family, Fantasy, Musical",
-        cover: "../images/movie-family1.jpeg",
-        videoId: "../videos/video4.mp4",
+        cover: "images/movie-family1.jpeg",
+        videoId: "videos/video4.mp4",
         date: "26-May-2023",
     },
 
@@ -192,21 +192,21 @@ export const popularData = [
 
     {
         id: 3,
-        cover: "../images/popular-movies/movie3.jpeg",
+        cover: "images/popular-movies/movie3.jpeg",
         name: "About Time",
         time: "2hr : 04mins",
     },
 
     {
         id: 4,
-        cover: "../images/popular-movies/movie4.jpeg",
+        cover: "images/popular-movies/movie4.jpeg",
         name: "Every Day",
         time: "1hr : 37mins",
     },
 
     {
         id: 5,
-        cover: "../images/popular-movies/movie5.jpeg",
+        cover: "images/popular-movies/movie5.jpeg",
         name: "Holidate",
         time: "1hr : 47mins",
     },
