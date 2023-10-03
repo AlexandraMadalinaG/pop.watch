@@ -15,7 +15,7 @@ export default function Header() {
         <div className="container flex1">
             <nav className="flex1">
                <div className="logo">
-                <img src="./images/PopWatch_logo.jpg" alt="PopWatch logo" />
+                <img src="/images/PopWatch_logo.jpg" alt="PopWatch logo" />
                 </div> 
 
                 <ul className={Mobile ? "navMenu-list":"flex1"} onClick={() => setMobile(false)}>
