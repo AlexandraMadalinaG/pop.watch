@@ -19,8 +19,8 @@ function App() {
           <Router>
               <Header />
               <Switch>
-             
-                  <Route exact path="/home" component={HomePage} />
+                  <Route exact path="/pop.watch/" component={HomePage} />
+                  <Route exact path="/" component={HomePage} />
                   <Route exact path="/singlepage/:id" component={SinglePage} />
                   <Route exact path="/signup" component={SignUp} />
                   <Route exact path="/movies" component={Movies} />
