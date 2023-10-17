@@ -57,8 +57,8 @@ export const HomeCard = ({ item: { id, cover, name, rating, time, desc, stars, g
   <Link to={`/singlepage/${id}`}>
     <button>
       <div className="img">
-        <img src="./images/play-button.png" alt="" />
-        <img src="./images/play.png" alt="" className="change"/>
+        <img src={require("../../assets/play-button.png")} alt="" />
+        <img src={require("../../assets/play.png")} alt="" className="change"/>
       </div>
       WATCH TRAILER
     </button>
