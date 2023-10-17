@@ -18,7 +18,7 @@ export default function Header() {
                             className={Mobile ? 'navMenu-list' : 'flex1'}
                             onClick={() => setMobile(false)}
                         >
-                            <Link className="link-account" to="/">
+                            <Link className="link-account" to="/home">
                                 Home
                             </Link>
                             <Link className="link-account" to="/movies">
