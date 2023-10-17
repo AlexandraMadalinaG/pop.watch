@@ -15,20 +15,19 @@ import { Movies } from './components/movies/Movies';
 
 function App() {
   return (
-    <>
-    
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/singlepage/:id' component={SinglePage} />
-          <Route exact path='/signup' component={SignUp} />
-          <Route exact path='/movies' component={Movies} />
-  </Switch>
-        <Footer />
-    </Router>
-
-    </>
+      <>
+          <Router>
+              <Header />
+              <Switch>
+             
+                  <Route exact path="/home" component={HomePage} />
+                  <Route exact path="/singlepage/:id" component={SinglePage} />
+                  <Route exact path="/signup" component={SignUp} />
+                  <Route exact path="/movies" component={Movies} />
+              </Switch>
+              <Footer />
+          </Router>
+      </>
   );
 }
 
