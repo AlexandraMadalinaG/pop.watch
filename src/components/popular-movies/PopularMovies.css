@@ -80,7 +80,7 @@
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media (max-width: 485px) and (max-width: 768px) {
     .popular-movies {
         padding-bottom: -2rem;
         padding-top: 1rem;

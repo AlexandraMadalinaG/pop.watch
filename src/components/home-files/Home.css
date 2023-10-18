@@ -177,7 +177,7 @@
 }
 
 
-@media (max-width: 485px) and (max-width: 800px) {
+@media (max-width: 485px) and (max-width: 768px) {
     .home-container h1 {
         font-size: 30px;
     }
