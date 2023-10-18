@@ -139,7 +139,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 390px) and (max-width: 844px) {
+@media (max-width: 485px) and (max-width: 844px) {
     .container-movies {
            display: grid; 
 
