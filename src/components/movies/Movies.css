@@ -50,14 +50,14 @@
     outline: none;
     padding: 10px 15px;
     cursor: pointer;
-    transition: box-shadow .2s;
+    transition: box-shadow 0.2s;
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 1px solid #eb5e28;
 }
 
 .button-movies:hover {
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .close-video {
@@ -122,7 +122,7 @@
 }
 .search-movies {
     border: 1px solid darkslategray;
-    outline: transparent; 
+    outline: transparent;
     background-color: transparent;
     padding: 5px 10px;
     border-radius: 25px;
@@ -132,9 +132,33 @@
 .submit-search {
     position: relative;
     right: 5px;
- 
+
     background-color: transparent;
     color: #eb5e28;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 390px) and (max-width: 844px) {
+    .container-movies {
+           display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   
+   gap: 8px;
+   height: 100%;
+    }
+    .brand {
+        font-size: 10px;
+    }
+    .h1-movies {
+        font-size: 20px;
+    }
+  .h1-movies-description {
+    font-size: 10px;
+  }
+    .submit-search {
+        display: none;
+    }
 }

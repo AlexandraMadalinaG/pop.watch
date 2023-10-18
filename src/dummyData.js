@@ -152,7 +152,7 @@ export const homeData = [
         name: 'Skyscraper',
         rating: 5.8,
         time: '1hr : 42mins',
-        desc: "FBI Hostage Rescue Team leader and U.S. war veteran Will Sawyer now assesses security for skyscrapers. On assignment in Hong Kong he finds the tallest, safest building in the world suddenly ablaze and he's been framed for it.",
+        desc: "FBI Hostage Rescue Team leader and U.S. war veteran Will Sawyer...",
         stars: 'Dwayne Johnson, Neve Campbell, Pablo Schreiber',
         genres: 'Action',
         tags: 'Action, Thriller',

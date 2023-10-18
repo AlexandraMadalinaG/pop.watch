@@ -141,7 +141,7 @@ export function Movies() {
               <button className={"button-movies play-video"} onClick={() => setPlaying(true)}
               type="button">Play Trailer</button> : "Sorry, no trailer available"}
               <h1 className="h1-movies">{movie.title}</h1>
-              <p>{movie.overview}</p>
+              <p className="h1-movies-description">{movie.overview}</p>
             
             </div>
         </div>
