@@ -7,9 +7,9 @@ export const Footer = () => {
   return (
     <>
     <footer>
-        <div className="container">
-            <div className="box">
-                <ul className="flex">
+        <div className="container-footer">
+            <div className="box-footer">
+                <ul className="flex-footer">
                     <li>Terms of Use</li>
                     <li>Privacy-Policy</li>
                     <li>Blog</li>
@@ -18,8 +18,8 @@ export const Footer = () => {
                 </ul>
                 <p>© 2023 by PopWatch. All Rights Reserved.</p>
             </div>
-            <div className="box">
-                <h3>Follow us</h3>
+            <div className="box-footer">
+                <h3 className="text-footer">Follow us</h3>
                 <i className="fab fa-facebook-f"></i>
                 <i className="fab fa-twitter"></i>
                 <i className="fab fa-youtube"></i>

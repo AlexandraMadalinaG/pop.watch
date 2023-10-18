@@ -59,7 +59,7 @@ export const PopularMovies = ({ items, title }) => {
     <section className="popular-movies">
         <div className="container">
             <div className="heading flex1">
-               <h1>{title}</h1> 
+               <h1 className="heading-title">{title}</h1> 
                <Link to="./Movies">View All</Link>
             </div>
            <div className="content">

@@ -6,12 +6,11 @@
     height: 100vh;
     width: 100%;
     color: #fff;
-  
 }
 
 /* -- Home style */
 .home-container {
-  position: relative;  
+    position: relative;
 }
 
 /* -- HomeCard style */
@@ -29,21 +28,27 @@
 }
 
 .coverImage::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 88;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7), rgba(0, 0, 0, .6), rgba(0, 0, 0, .5 ), rgba(0, 0, 0, .4), rgba(0, 0, 0));
-
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 88;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0)
+    );
 }
-
 
 /* Home and HomeCard style */
 .home-container .content {
-  padding: 100px;
+    padding: 100px;
 }
 
 .home-container h1 {
@@ -51,7 +56,7 @@
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 800;
-    background-image: url("../../../public/images/texture.jpeg");
+    background-image: url('../../../public/images/texture.jpeg');
     background-repeat: repeat;
     background-clip: text;
     -webkit-background-clip: text;
@@ -59,27 +64,26 @@
     -webkit-font-smoothing: antialiased;
 }
 
-
 .home-container .rating {
     margin: 30px 0;
 }
 
-/* -- HomeCard style */ 
+/* -- HomeCard style */
 .rating i {
-   color: #eb5e28; 
-   margin-right: 5px;
+    color: #eb5e28;
+    margin-right: 5px;
 }
 .rating label {
- margin: 0 20px;   
+    margin: 0 20px;
 }
 .rating span {
-   background-color: #212529; 
-   padding: 5px;
-   color: #000;
-   font-weight: bold;
+    background-color: #212529;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
 }
 
-/* -- Home and HomeCard style */ 
+/* -- Home and HomeCard style */
 .home-container .cast {
     margin: 30px 0;
 }
@@ -91,13 +95,13 @@
     font-size: 17px;
 }
 .cast h4 span {
-    color: #eb5e28; 
+    color: #eb5e28;
 }
 
 .play-button {
-   display: flex;
-   align-items: center;
-   justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .play-button .img {
     position: relative;
@@ -131,40 +135,77 @@
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-/* -- Homes style */ 
+/* -- Homes style */
 .margin {
     margin-top: 50%;
 }
 
-/* responsive style */ 
+/* responsive style */
 @media only screen and (max-width: 768px) {
     .home-container h1 {
-      font-size: 50px;
-      margin: 0;
+        font-size: 40px;
+        margin: 0;
     }
     .home {
-      position: relative;
-      margin: 0;
-      height: 60vh !important;
+        position: relative;
+        margin: 0;
+        height: 60vh !important;
     }
     .coverImage img {
-      width: 100vw;
-      height: 70vh !important;
+        width: 100vw;
+        height: 70vh !important;
     }
     .home .content {
-      flex-direction: column;
-      padding: 50px;
+        flex-direction: column;
+        padding: 50px;
     }
     .home .row {
-      width: 100%;
+        width: 100%;
     }
     .home .play-button {
-      display: none;
+        display: none;
     }
     .margin {
-      margin-top: 0% !important;
+        margin-top: 0% !important;
     }
-  }
+    .play-button {
+        width: 100%;
+        height: 40%;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-device-width: 390px) {
+    .home-container h1 {
+        font-size: 30px;
+    }
+  
+    .play-button button {
+        position: relative;
+        cursor: pointer;
+        background: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .change {
+        position: relative;
+        width: 50%;
+        height: 30%;
+        font-size: 2rem;
+        position: sticky;
+        width: 100%;
+    }
+    .img-play {
+        position: relative;
+        width: 100px;
+        position: relative;
+        width: 100%;
+    }
+    .rating {
+        display: none;
+    }
+}

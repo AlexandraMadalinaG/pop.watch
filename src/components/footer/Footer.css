@@ -22,22 +22,43 @@ footer i {
     align-items: center;
     line-height: 40px;
     border-radius: 50%;
-  margin-right: 5px;
-  margin-top: 40px;
+    margin-right: 5px;
+    margin-top: 40px;
 }
 
 /* -- responsive style */
-@media only screen and(max-width:768px) {
-
-    footer .container {
+@media only screen and(max-width: 768px) {
+    footer .container-footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     }
-    footer .box {
+    footer .box-footer {
         display: flex;
         gap: 0.725rem;
         font-size: 2.5rem;
+    }
+}
 
+@media only screen and (max-device-width: 375px) {
+    footer .container-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    footer {
+        margin-right: 4rem;
+    }
+    .box-footer {
+        margin-left: 4rem;
+    }
+    .text-footer {
+        margin-top: 5rem;
+    }
+    .box-footer .fab {
+        display: grid;
+        grid-gap: 5px;
+        column-count: 5;
+        margin-bottom: -2rem;
     }
 }

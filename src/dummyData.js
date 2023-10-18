@@ -208,7 +208,7 @@ export const homeData = [
         name: 'Top Gun: Maverick',
         rating: 8.3,
         time: '2hr : 11mins',
-        desc: "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+        desc: "After thirty years, Maverick is still pushing the envelope as...",
         stars: 'Tom Cruise, Jennifer Connelly, Miles Teller',
         genres: 'Action',
         tags: 'Action, Adventure, Drama',
